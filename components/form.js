@@ -8,42 +8,38 @@ const Form = () => (
       </Title>
       <form>
         <input
-          class="text-input"
+          className="text-input"
           name="firstName"
-          value=""
           placeholder="First Name"
         />
         <input
-          class="text-input"
+          className="text-input"
           name="lastName"
-          value=""
           placeholder="Last Name"
         />
         <input
-          class="text-input"
+          className="text-input"
           name="companyName"
-          value=""
           placeholder="Company Name"
         />
         <input
-          class="text-input"
+          className="text-input"
           name="phoneNumber"
-          value=""
           placeholder="Phone Number"
         />
-        <input class="text-input" name="email" value="" placeholder="Email" />
+        <input className="text-input" name="email" placeholder="Email" />
 
-        <select class="select-input" value="" name="destination">
-          <option value="" disabled="disabled" selected="selected">
+        <select className="select-input">
+          <option >
             I am:
           </option>
-          <option value="MSP/VAR">An MSP or IT service provider</option>
-          <option value="Corporate IT">In-house corporate IT</option>
-          <option value="Home User/Student">A student or home user</option>
+          <option>An MSP or IT service provider</option>
+          <option>In-house corporate IT</option>
+          <option>A student or home user</option>
         </select>
         <button>Download Now</button>
         <label>
-          <input class="check-box-input" type="checkbox" name="checkBox" />
+          <input className="check-box-input" type="checkbox" name="checkBox" />
           Yes, I agree to be contacted by Auvik so they can share product and
           industry resources with me.
         </label>
