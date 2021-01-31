@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "xdn": "xdn",
+    "xdn:start": "xdn run",
+    "xdn:build": "xdn build",
+    "xdn:deploy": "xdn deploy",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn run build && next export"
+  },
+  "name": "auvik",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "next": "^10.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-is": "17.0.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@xdn/cli": "^2.30.1",
+    "@xdn/core": "^2.30.1",
+    "@xdn/devtools": "^2.30.1",
+    "@xdn/next": "^2.30.1",
+    "@xdn/prefetch": "^2.30.1",
+    "@xdn/react": "^2.30.1",
+    "babel-plugin-styled-components": "^1.8.0"
+  },
+  "license": "MIT"
+}
